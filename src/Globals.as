@@ -9,7 +9,8 @@ package
 
 		public function Globals()
 		{
-			settingsXML = new _settingsXML();
+			var thing = new _settingsXML();
+			settingsXML = XML(new _settingsXML());
 		}
 	}
 }
